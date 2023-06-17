@@ -1,0 +1,19 @@
+{
+  "anErrorOccured": "حدث خطأ ما",
+  "appName": "Flutter Exchange",
+  "arabic": "العربية",
+  "back": "رجوع",
+  "cancel": "إلغاء",
+  "confirm": "تأكيد",
+  "english": "الإنكليزية",
+  "language": "اللغة",
+  "noInternetConnection": "تحقق من جودة الاتصال بالانترنت",
+  "weakNetworkConnection": "اتصال شبكة ضعيف",
+  "nothingToShow": "لا شيء للعرض",
+  "serverError": "خطأ مخدم",
+  "settings": "الإعدادات",
+  "againToExit": "مرة ثانية للخروج",
+  "save": "حفظ",
+  "converter": "تحويل",
+  "theme": "Theme"
+}

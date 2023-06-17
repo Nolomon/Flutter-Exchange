@@ -1,0 +1,19 @@
+{
+  "anErrorOccured": "An error occured",
+  "appName": "Flutter Exchange",
+  "arabic": "Arabic",
+  "back": "Back",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "english": "English",
+  "language": "Language",
+  "noInternetConnection": "Check internet connection",
+  "weakNetworkConnection": "Weak newtwork connection",
+  "nothingToShow": "Nothing to show",
+  "serverError": "Server error",
+  "settings": "Settings",
+  "againToExit": "again to exit",
+  "save": "Save",
+  "converter": "Converter",
+  "theme": "Theme"
+}
