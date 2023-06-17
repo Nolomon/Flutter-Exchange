@@ -17,7 +17,7 @@ class SwapButton extends StatefulWidget {
 }
 
 class _SwapButtonState extends State<SwapButton> {
-  bool canSwap = true;
+  bool canSwap = false;
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -51,8 +51,8 @@ class _SwapButtonState extends State<SwapButton> {
           end: 1,
           duration: 500.ms,
         )
-        .scaleXY(end: 1.2, duration: 250.ms)
+        .scaleXY(end: 1.35, duration: 250.ms)
         .then()
-        .scaleXY(end: 1 / 1.2);
+        .scaleXY(end: 1 / 1.35);
   }
 }
