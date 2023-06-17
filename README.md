@@ -1,16 +1,40 @@
-# flutter_exchange
 
-A new Flutter project.
+# Flutter Exchange
 
-## Getting Started
+Effortlessly convert currencies with this intuitive Flutter app powered by exchangerate-api.com.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Environment Variables
+
+To run this project, you will need to add your exchangerate-api.com API key to Dart platform variables like so:
+
+`
+flutter run --dart-define exchange42=<your_api_key>
+`
+
+`
+flutter build apk --dart-define exchange42=<your_api_key>
+`
+
+## Features
+
+- Swap from/to currencies.
+- Show currency country flag.
+- Animated swapping.
+- Modular components.
+- Light/dark mode toggle
+- Cross platform
+
+
+## Installation
+
+Just clone the repo, then from project root:
+
+`
+  flutter pub get
+`
+
+This app is compatible with Flutter version 3.10.2
+    
