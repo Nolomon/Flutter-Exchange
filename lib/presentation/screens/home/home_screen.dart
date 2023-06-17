@@ -1,15 +1,11 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:intl/intl.dart';
 
 import '../../../data/utils/error_handler.dart';
 import '../../../logic/cubit/home/home_cubit.dart';
-import '../../../res/app_res.dart';
 import '../../widgets/background_column.dart';
 import '../../widgets/common/common.dart';
 import 'widgets/exchange_rates_update_date_label.dart';
@@ -121,45 +117,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                 });
                               },
                             ),
-
-                            // Material(
-                            //   child: InkWell(
-                            //     radius: 10,
-                            //     child: Container(
-                            //       width: 42.h,
-                            //       height: 42.h,
-                            //       clipBehavior: Clip.hardEdge,
-                            //       padding: const EdgeInsets.symmetric(
-                            //           horizontal: 5, vertical: 8),
-                            //       decoration: BoxDecoration(
-                            //         color: Theme.of(context).brightness ==
-                            //                 Brightness.dark
-                            //             ? Theme.of(context).colorScheme.tertiary
-                            //             : null,
-                            //         border: Border.all(),
-                            //         borderRadius: BorderRadius.circular(10),
-                            //       ),
-                            //       child: SvgPicture.asset(AppImages.swap),
-                            //     ),
-                            //     onTap: () => setState(() {
-                            //       canSwap = !canSwap;
-                            //       final String? tempCurrency = _firstCurrency;
-                            //       _firstCurrency = _secondCurrency;
-                            //       _secondCurrency = tempCurrency;
-                            //     }),
-                            //   ),
-                            // )
-                            //     .animate(
-                            //       target: canSwap ? 1 : 0,
-                            //     )
-                            //     .flip(
-                            //       begin: 0,
-                            //       end: 1,
-                            //       duration: 500.ms,
-                            //     )
-                            //     .scaleXY(end: 1.2, duration: 250.ms)
-                            //     .then()
-                            //     .scaleXY(end: 1 / 1.2),
                           ),
                           SizedBox(height: 31.h),
                           //* Second Converter
