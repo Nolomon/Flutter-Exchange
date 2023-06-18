@@ -86,13 +86,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             toCurrency: _secondCurrency ??
                                 state.exchangeRates.conversionRates.keys.first,
                             onChanged: (converted, exchangeFrom) {
-                              if (converted != null) {
-                                setState(() {
-                                  _firstCurrency = exchangeFrom;
+                              setState(() {
+                                _firstCurrency = exchangeFrom;
+                                if (converted != null) {
                                   _secondController.text =
                                       NumberFormat('#.0###').format(converted);
-                                });
-                              }
+                                }
+                              });
                             },
                           )
                               .animate(
