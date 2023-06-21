@@ -3,9 +3,6 @@
 
 Effortlessly convert currencies with this intuitive Flutter app powered by exchangerate-api.com.
 
-
-
-
 ## Environment Variables
 
 To run this project, you will need to add your exchangerate-api.com API key to Dart platform variables like so:
@@ -27,7 +24,6 @@ flutter build apk --dart-define exchange42=<your_api_key>
 - Light/dark mode toggle
 - Cross platform
 
-
 ## Installation
 
 Just clone the repo, then from project root:
@@ -37,4 +33,9 @@ Just clone the repo, then from project root:
 `
 
 This app is compatible with Flutter version 3.10.2
-    
+
+## Demo
+
+<div style="text-align: center;">
+<img src="flutter_exchange_demo.gif" width="250" alt="Flutter Exchange Demo">
+</div>
